@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+
+<body>
+    
+  <div class="container">
+      
+      <div class="row">
+      <div class="col-md-3">
+              <figure class="box box-1">Latitude</figure>
+      </div>
+      <div class="col-md-6">
+          <p></p>
+      </div>
+      <div class="col-md-1">
+          <!-- <nav class="navbar">
+              <ul>
+                <li>
+                  <a href="#">Max Temperature</a>
+                </li>
+                <li>
+                  <a href="#">Humidity</a>
+                </li>
+                <li>
+                  <a href="#">Cloudiness</a>
+                </li>
+                <li>
+                  <a href="#">Wind Speed</a>
+                </li>
+              </ul> -->
+        <select id="nav-select">
+            <option value="Plots">Plots</option>
+            <option value="Max Temperature">Max Temperature</option>
+            <option value="Humidity">Humidity</option>
+            <option value="Cloudiness">Cloudiness</option>
+            <option value="Wind Speed">Wind Speed</option>
+        </select>
+        <div class="clearfix"></div>
+      </nav>
+      </div>
+      <div class="col-md-1">
+        <p>Comparison</p>
+      </div>
+      <div class="col-md-1">
+        <p>Data</p>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <h1>Comparison: Latitude vs X</h1>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+          <p>Click any plot to get in-depth analysis</p>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+        <h2>vs. Max Temperature</h2>
+        <section id="figure">
+          <img class="comparison-image" src="Fig1.png" alt="Figure 1">
+        </section>
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+      <h2>vs. Humidity</h2>
+      <section id="figure">
+        <img class="comparison-image" src="Fig2.png" alt="Figure 2">
+      </section>
+  </div>
+  <div class="col-sm-12 col-md-6">
+    <h2>vs. Cloudiness</h2>
+    <section id="figure">
+      <img class="comparison-image" src="Fig3.png" alt="Figure 3">
+    </section>
+</div>
+
+<div class="col-sm-12 col-md-6">
+  <h2>vs. Wind Speed</h2>
+  <section id="figure">
+    <img class="comparison-image" src="Fig4.png" alt="Figure 4">
+  </section>
+</div>
+</div>
+        
+
+  </div>
+ 
+</body>
+
+</html>

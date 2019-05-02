@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+
+<body>
+    
+  <div class="container">
+      
+      <div class="row">
+      <div class="col-md-3">
+              <figure class="box box-1">Latitude</figure>
+      </div>
+      <div class="col-md-6">
+          <p></p>
+      </div>
+      <div class="col-md-1">
+          <!-- <nav class="navbar">
+              <ul>
+                <li>
+                  <a href="#">Max Temperature</a>
+                </li>
+                <li>
+                  <a href="#">Humidity</a>
+                </li>
+                <li>
+                  <a href="#">Cloudiness</a>
+                </li>
+                <li>
+                  <a href="#">Wind Speed</a>
+                </li>
+              </ul> -->
+        <select id="nav-select">
+            <option value="Plots">Plots</option>
+            <option value="Max Temperature"><a href="file:///C:/Users/LJ/Desktop/databootcamp/Homework/Web-Challenge/MaxTemp.html">Max Temperature</a></option>
+            <option value="Humidity">Humidity</option>
+            <option value="Cloudiness">Cloudiness</option>
+            <option value="Wind Speed">Wind Speed</option>
+        </select>
+        <div class="clearfix"></div>
+      </nav>
+      </div>
+      <div class="col-md-1">
+        <p>Comparison</p>
+      </div>
+      <div class="col-md-1">
+        <p>Data</p>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+            <h1>Summary: Latitude vs. X</h1>
+            <section id="main-text">
+                <section id="figure">
+                  <img id="main-image" src="Fig1.png" alt="Figure 1">
+                </section>
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides source data and visualizations created as part of analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p> 
+               </section>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+            <h1>Visualizations</h1>
+            <div class="row">
+              <div class="col-sm-3 col-md-6">
+                  <section id="figure">
+                      <img class="Vfig" src="Fig1.png" alt="Figure 1">
+                    </section>
+            </div>
+            <div class="col-sm-3 col-md-6">
+                <section id="figure">
+                    <img class="Vfig" src="Fig2.png" alt="Figure 2">
+                  </section>
+          </div>
+    
+    
+        <div class="col-sm-3 col-md-6">
+            <section id="figure">
+                <img class="Vfig" src="Fig3.png" alt="Figure 3">
+              </section>
+      </div>
+      <div class="col-sm-3 col-md-6">
+          <section id="figure">
+              <img class="Vfig" src="Fig4.png" alt="Figure 4">
+            </section>
+    </div>
+
+    
+
+  </div>
+ 
+</body>
+
+</html>
