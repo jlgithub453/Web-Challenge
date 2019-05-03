@@ -7,9 +7,22 @@
   text-align: center
 }
 
-/* Giving our navbar some padding and a background color */
-.navbar navbar-expand-lg navbar-light bg-light {
-    margin-left: 200px;
+#mainbackground{
+  background-color:  #FFFAF0
+}
+
+#landingmain{
+  margin-top:100px;
+  margin-bottom: 100px;
+  margin-left:20px;
+  margin-right:20px;
+  background-color: white 
+}
+
+#visualization{
+  margin-top:100px;
+  margin-bottom: 100px;
+  background-color: white
 }
 
 
