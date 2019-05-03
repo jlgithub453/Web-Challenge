@@ -11,49 +11,33 @@
 </head>
 
 <body>
-    
-  <div class="container">
-      
-      <div class="row">
-      <div class="col-md-3">
-              <figure class="box box-1">Latitude</figure>
-      </div>
-      <div class="col-md-6">
-          <p></p>
-      </div>
-      <div class="col-md-1">
-          <!-- <nav class="navbar">
-              <ul>
-                <li>
-                  <a href="#">Max Temperature</a>
-                </li>
-                <li>
-                  <a href="#">Humidity</a>
-                </li>
-                <li>
-                  <a href="#">Cloudiness</a>
-                </li>
-                <li>
-                  <a href="#">Wind Speed</a>
-                </li>
-              </ul> -->
-        <select id="nav-select">
-            <option value="Plots">Plots</option>
-            <a href="MaxTemp.html"> <option value="Max Temperature">Max Temperature</option></a>
-            <option value="Humidity">Humidity</option>
-            <option value="Cloudiness">Cloudiness</option>
-            <option value="Wind Speed">Wind Speed</option>
-        </select>
-        <div class="clearfix"></div>
-      </nav>
-      </div>
-      <div class="col-md-1">
-        <p><a href="Comparison.html">Comparison</a></p>
-      </div>
-      <div class="col-md-1">
-        <p><a href="Data.html">Data</a></p>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="index.html" class="box box-1" >Latitude</a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="Comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a href="Data.html">Data</a>
+        </li>
     </div>
+  </nav>
+  <div class="container">
 
     <div class="row">
         <div class="col-sm-12 col-md-8">
@@ -96,7 +80,9 @@
     
 
   </div>
- 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
